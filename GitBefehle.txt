@@ -5,6 +5,8 @@ cd ..
 ls
 
 git init
+
+
 git status
 git add DATEINAME
 git commit -m "DEIN KOMMENTAR ZU DEN AENDERUNGEN"
