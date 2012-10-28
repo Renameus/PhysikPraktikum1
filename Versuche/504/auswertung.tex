@@ -1,0 +1,41 @@
+\subsection{Kennlinien der Hochvakuumdiode} 
+Aus den Tabellen (\ref{taba1} - \ref{taba5}) sind die darauf folgenden 
+Abbildungen (\ref{pica1} - \ref{pica5}) erstellt worden.
+\input{taba1.tex} \input{taba2.tex} \input{taba3.tex} \input{taba4.tex} \input{taba5.tex}
+\input{pica1.tex} \input{pica2.tex} \input{pica3.tex} \input{pica4.tex} \input{pica5.tex} 
+Aus den Abbildungen \ref{pica1},\ref{pica2} und \ref{pica3} wurde der Sättingungsstrom 
+$I_s$ abgelesen (Tab. \ref{tabis}). Bei den Abbildungen \ref{pica4} und \ref{pica5} war das 
+nicht möglich, der Großteil des Sättigungsstromgebietes befand sich außerhalb der 
+Messwerte.
+\input{tabis.tex}
+\FloatBarrier
+\subsection{Langmuir-Schottkysches-Gesetz}
+Das Langmuir-Schottkysche Raumladungsgesetz ist solange gültig, bis sich die Kennlinie
+dem Sättigungstrom annähert, also das Raumladungsgebiet in das Sättigungsstromgebiet 
+übergeht. Für die maximal mögliche Heizleistung passiert das ungefähr bei 200V.
+Trägt man die Messwerte logarithmisch auf, so lässt sich der Exponent erkennen (vgl. 
+Abb. \ref{picb1}). Der Exponent berechnet sich durch lineare Regression \cite{linreg}
+aus Gleichung \ref{eqb1} beziehungsweise Tabelle \ref{tabblinreg} welche auf Tabelle \ref{taba5} aufbaut.
+\begin{align}
+I&\sim U^\alpha \\
+\Leftrightarrow ln(I)&\sim ln(U)*\alpha \label{eqb1}
+\end{align}
+\input{tabblinreg.tex}
+\FloatBarrier
+Aus der linearen Regression nach \cite{linreg} berechnet sich der gesuchte Exponent $\alpha$ beziehungsweise die Ausgleichskurve (Abb. \ref{picb1}).
+\begin{align}
+t&=a*x+b \\
+a&=\alpha=1,18 \\
+b&=-5.3443 \\
+\Rightarrow I&=U^\alpha*e^b 
+\end{align}
+\input{picb1.tex}
+\FloatBarrier
+\subsection{Kathodentemperatur im Anlaufstromgebiet}
+
+\subsection{Kathodentemperatur bei Saugspannung}
+
+\subsection{Austrittsarbeit des Kathodenmaterials}
+
+
+
