@@ -26,10 +26,21 @@ Das Anlaufstromgebiet, ist das Gebiet in dem Strom durch die Diode fließt, ohne
 Der zweite Teil der Kurve, das Raumladungsgebiet, entsteht aufgrund des erzeugten elektrischen Feldes zwischen Anode und Kathode. Es erreichen nicht alle Elektronen, die das Metall verlassen, auch die Anode, da sie zwar genug Energie besitzen  um aus dem Metall auszutreten, aber nicht genug um die Anode zu erreichen.
 Beschrieben wird die Dichte durch die Langmuir-Schottkysche Raumladungsgleichung.
 \begin{align}
-I=\frac49e_0\sqrt{2\frac{e_0}{m_0}}\frac{V^\frac32}{a^2}
+I=\frac49e_0\sqrt{2\frac{e_0}{m_0}}\frac{V^\frac32}{a^2} \label{eqlangmuir}
 \end{align}
 Dabei ist $V$ die Anodenspannung und $a$ der Abstand zwischen Anode und Kathode.
 \\
-Der letzte Teil Teil ist das Sättigungsgebiet. Hier nähert sich der Strom asymptotisch einem Maximalwert, dem Sättigungswert.
+Der letzte Teil Teil ist das Sättigungsgebiet. Hier nähert sich der Strom asymptotisch einem Maximalwert, dem Sättigungswert. \\
+
+% Ergänzt
+Eine weitere Gleichung (\ref{eqtemp}) lässt sich aus dem Energiesatz und dem Stefan-Boltzmannschen Gesetz \cite{anleitung}
+herleiten. Damit kann die Kathodentemperatur berechnet werden.
+\begin{align}
+I_Heiz*U_Heiz&=f*\eta*\sigma*T^4+N_WL \label{eqtemp}
+\end{align}
+Wobei $f$ die emittierende Kathodenoberfläche angibt, $\eta$ der Emissionsgrad der Oberfläche ist, $\sigma$ 
+die Stefan-Boltzmannsche Strahlungskonstante meint und $N_WL$ die Wärmeleitung der Apparatur bezeichnet.
+
+
 
 
