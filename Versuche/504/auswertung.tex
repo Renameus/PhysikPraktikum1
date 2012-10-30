@@ -10,15 +10,15 @@ Messwerte.
 \input{tabis.tex}
 \FloatBarrier
 \subsection{Langmuir-Schottkysches-Gesetz}
-Das Langmuir-Schottkysche Raumladungsgesetz ist solange gültig, bis sich die Kennlinie
+Das Langmuir-Schottkysche Raumladungsgesetz (Gl. \ref{eqlangmuir}) ist solange gültig, bis sich die Kennlinie
 dem Sättigungstrom annähert, also das Raumladungsgebiet in das Sättigungsstromgebiet 
 übergeht. Für die maximal mögliche Heizleistung passiert das ungefähr bei 200V.
 Trägt man die Messwerte logarithmisch auf, so lässt sich der Exponent erkennen (vgl. 
 Abb. \ref{picb1}). Der Exponent berechnet sich durch lineare Regression \cite{linreg}
-aus Gleichung \ref{eqb1} beziehungsweise Tabelle \ref{tabblinreg} welche auf Tabelle \ref{taba5} aufbaut.
+aus Gleichung \ref{eqb1}, beziehungsweise Tabelle \ref{tabblinreg}, welche auf Tabelle \ref{taba5} aufbaut.
 \begin{align}
 I&\sim U^\alpha \\
-\Leftrightarrow ln(I)&\sim ln(U)*\alpha \label{eqb1}
+\Rightarrow ln(I)&\sim ln(U)*\alpha \label{eqb1}
 \end{align}
 \input{tabblinreg.tex}
 \FloatBarrier
@@ -32,10 +32,39 @@ b&=-5.3443 \\
 \input{picb1.tex}
 \FloatBarrier
 \subsection{Kathodentemperatur im Anlaufstromgebiet}
-
+Aus den aufgezeichneten Messwerten (vgl. Tab. \ref{tabc1}) lässt sich nach der Gleichung \ref{eqcureal}
+die angezeigte Spannung $U_{Heiz}$ nach $U_{Heiz,real}$ korrigieren. Daraus lässt sich dann mit 
+Gleichung \ref{eqtemp} T berechnen (Tab. \ref{tabc1}). Die genutzen Apparaturkonstanten waren dabei:
+\begin{align}
+\begin{split}
+f&=0,335cm^2 \label{eqdatatemp}\\
+\eta&=0,28\\
+N_{WL}&=0,95W .
+\end{split}
+\end{align} 
+Die Werte sind in Abbildung \ref{picc1} veranschaulicht.
+\begin{align}
+U_{Heiz,real}&=U_{Heiz}-R*I_S \label{eqcureal}\\
+mit: R&=1M\Omega \\
+\end{align}
+\input{tabc1.tex} \input{picc1.tex}
+\FloatBarrier
 \subsection{Kathodentemperatur bei Saugspannung}
-
+Die Leistungbilanz des Heizstromkreises dient nach Gleichung \ref{eqtemp} mit den Werten aus \ref{eqdatatemp}
+zur Berechnung der Temperatur aus den aufgezeichneten Werten (vgl. Tab. \ref{taba1}-\ref{taba5}). Die Ergebnisse
+sind in Tabelle \ref{tabd1} und in Abbildung \ref{picd1} dargestellt. 
+\input{tabd1.tex} \input{picd1.tex}
+\FloatBarrier
 \subsection{Austrittsarbeit des Kathodenmaterials}
-
-
+Um die Austrittsarbeit der Wolfram-Kathode nach der Richardson-Gleichung \ref{eqrichard} zu berechnen,
+werden die T Werte aus Tabelle \ref{tabd1} und die Sättigungsstromwerte aus Tabelle \ref{tabis}
+verwendet. Die Ergebnisse für die Austrittsarbeit $e_o\varphi$ sind in Tabelle \ref{tabe1} zusammengefasst.
+Der Mittelwert der Austrittsarbeit $\overline{e_o\varphi}$, welcher nach Gleichung \ref{eqmittwert} berechnet
+wird, beträgt:
+\begin{align}
+\overline{e_o\varphi}&=6{,}5\overline{3}\\
+\overline{x}&=\frac{1}{N}\sum\limits_{i=1}^N x_i \label{eqmittwert}
+\end{align}
+\input{tabe1.tex}
+\FloatBarrier
 

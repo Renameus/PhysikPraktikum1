@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.5)  28 OCT 2012 12:29
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.5)  30 OCT 2012 15:19
 entering extended mode
 **protokoll.tex
 (F:\Documents\uni\Git\Physik\Versuche\504\protokoll.tex
@@ -2484,8 +2484,12 @@ File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 
 
 {H:/Progam Files/miktxport/pdftex/config/pdftex.map}]
-(F:\Documents\uni\Git\Physik\Versuche\504\theorie.tex [2])
-(F:\Documents\uni\Git\Physik\Versuche\504\durchfuehrung.tex)
+(F:\Documents\uni\Git\Physik\Versuche\504\theorie.tex
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
+
+ []
+
+[2]) (F:\Documents\uni\Git\Physik\Versuche\504\durchfuehrung.tex)
 (F:\Documents\uni\Git\Physik\Versuche\504\auswertung.tex
 (F:\Documents\uni\Git\Physik\Versuche\504\taba1.tex
 LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <10> not available
@@ -2496,7 +2500,7 @@ LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <10> not available
 (F:\Documents\uni\Git\Physik\Versuche\504\taba4.tex)
 (F:\Documents\uni\Git\Physik\Versuche\504\taba5.tex)
 (F:\Documents\uni\Git\Physik\Versuche\504\pica1.tex
-<pica1.jpg, id=92, 578.16pt x 431.4519pt>
+<pica1.jpg, id=94, 578.16pt x 431.4519pt>
 File: pica1.jpg Graphic file (type jpg)
  <use pica1.jpg>
 Package pdftex.def Info: pica1.jpg used on input line 3.
@@ -2507,7 +2511,7 @@ Overfull \hbox (15.36337pt too wide) in paragraph at lines 3--4
  []
 
 ) (F:\Documents\uni\Git\Physik\Versuche\504\pica2.tex
-<pica2.jpg, id=93, 578.16pt x 431.4519pt>
+<pica2.jpg, id=95, 578.16pt x 431.4519pt>
 File: pica2.jpg Graphic file (type jpg)
  <use pica2.jpg>
 Package pdftex.def Info: pica2.jpg used on input line 3.
@@ -2518,7 +2522,7 @@ Overfull \hbox (15.36337pt too wide) in paragraph at lines 3--4
  []
 
 ) (F:\Documents\uni\Git\Physik\Versuche\504\pica3.tex
-<pica3.jpg, id=94, 578.16pt x 431.4519pt>
+<pica3.jpg, id=96, 578.16pt x 431.4519pt>
 File: pica3.jpg Graphic file (type jpg)
  <use pica3.jpg>
 Package pdftex.def Info: pica3.jpg used on input line 3.
@@ -2529,7 +2533,7 @@ Overfull \hbox (15.36337pt too wide) in paragraph at lines 3--4
  []
 
 ) (F:\Documents\uni\Git\Physik\Versuche\504\pica4.tex
-<pica4.jpg, id=95, 578.16pt x 431.4519pt>
+<pica4.jpg, id=97, 578.16pt x 431.4519pt>
 File: pica4.jpg Graphic file (type jpg)
  <use pica4.jpg>
 Package pdftex.def Info: pica4.jpg used on input line 3.
@@ -2540,7 +2544,7 @@ Overfull \hbox (15.36337pt too wide) in paragraph at lines 3--4
  []
 
 ) (F:\Documents\uni\Git\Physik\Versuche\504\pica5.tex
-<pica5.jpg, id=96, 578.16pt x 431.4519pt>
+<pica5.jpg, id=98, 578.16pt x 431.4519pt>
 File: pica5.jpg Graphic file (type jpg)
  <use pica5.jpg>
 Package pdftex.def Info: pica5.jpg used on input line 3.
@@ -2550,10 +2554,7 @@ Overfull \hbox (15.36337pt too wide) in paragraph at lines 3--4
  [] 
  []
 
-) (F:\Documents\uni\Git\Physik\Versuche\504\tabis.tex)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+) (F:\Documents\uni\Git\Physik\Versuche\504\tabis.tex) [3]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2584,13 +2585,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3] [4] [5] [6] [7] [8] [9 <F:/Documents/uni/Git/Physik/Versuche/504/pica1.jpg>
-] [10 <F:/Documents/uni/Git/Physik/Versuche/504/pica2.jpg>] [11 <F:/Documents/u
-ni/Git/Physik/Versuche/504/pica3.jpg>] [12 <F:/Documents/uni/Git/Physik/Versuch
-e/504/pica4.jpg>] [13 <F:/Documents/uni/Git/Physik/Versuche/504/pica5.jpg>]
+[4] [5] [6] [7] [8] [9 <F:/Documents/uni/Git/Physik/Versuche/504/pica1.jpg>]
+[10 <F:/Documents/uni/Git/Physik/Versuche/504/pica2.jpg>] [11 <F:/Documents/uni
+/Git/Physik/Versuche/504/pica3.jpg>] [12 <F:/Documents/uni/Git/Physik/Versuche/
+504/pica4.jpg>] [13 <F:/Documents/uni/Git/Physik/Versuche/504/pica5.jpg>]
 (F:\Documents\uni\Git\Physik\Versuche\504\tabblinreg.tex)
 (F:\Documents\uni\Git\Physik\Versuche\504\picb1.tex
-<picb1.jpg, id=168, 578.16pt x 431.4519pt>
+<picb1.jpg, id=173, 578.16pt x 431.4519pt>
 File: picb1.jpg Graphic file (type jpg)
  <use picb1.jpg>
 Package pdftex.def Info: picb1.jpg used on input line 3.
@@ -2602,10 +2603,50 @@ Overfull \hbox (15.36337pt too wide) in paragraph at lines 3--4
 
 ) [14
 
-]) (F:\Documents\uni\Git\Physik\Versuche\504\diskussion.tex)
+] (F:\Documents\uni\Git\Physik\Versuche\504\tabc1.tex)
+(F:\Documents\uni\Git\Physik\Versuche\504\picc1.tex
+<picc1.jpg, id=192, 578.16pt x 431.4519pt>
+File: picc1.jpg Graphic file (type jpg)
+ <use picc1.jpg>
+Package pdftex.def Info: picc1.jpg used on input line 3.
+(pdftex.def)             Requested size: 433.61893pt x 323.58813pt.
+
+Overfull \hbox (15.36337pt too wide) in paragraph at lines 3--4
+ [] 
+ []
+
+) [15 <F:/Documents/uni/Git/Physik/Versuche/504/picb1.jpg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16] (F:\Documents\uni\Git\Physik\Versuche\504\tabd1.tex)
+(F:\Documents\uni\Git\Physik\Versuche\504\picd1.tex
+<picd1.jpg, id=214, 578.16pt x 431.4519pt>
+File: picd1.jpg Graphic file (type jpg)
+ <use picd1.jpg>
+Package pdftex.def Info: picd1.jpg used on input line 3.
+(pdftex.def)             Requested size: 433.61893pt x 323.58813pt.
+
+Overfull \hbox (15.36337pt too wide) in paragraph at lines 3--4
+ [] 
+ []
+
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17 <F:/Documents/uni/Git/Physik/Versuche/504/picc1.jpg>] [18 <F:/Documents/uni
+/Git/Physik/Versuche/504/picd1.jpg>]
+(F:\Documents\uni\Git\Physik\Versuche\504\tabe1.tex))
+(F:\Documents\uni\Git\Physik\Versuche\504\diskussion.tex)
 (F:\Documents\uni\Git\Physik\Versuche\504\protokoll.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
- [15 <F:/Documents/uni/Git/Physik/Versuche/504/picb1.jpg>]
+ [19
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
 
 (F:\Documents\uni\Git\Physik\Versuche\504\protokoll.aux)
@@ -2615,13 +2656,13 @@ Package rerunfilecheck Info: File `protokoll.out' has not changed.
 (rerunfilecheck)             Checksum: EF70516B8A9B45BA9BD5A6866B95D3CF;752.
  ) 
 Here is how much of TeX's memory you used:
- 20294 strings out of 494045
- 395555 string characters out of 3149241
- 493534 words of memory out of 3000000
- 23194 multiletter control sequences out of 15000+200000
- 35746 words of font info for 72 fonts, out of 3000000 for 9000
+ 20372 strings out of 494045
+ 396899 string characters out of 3149241
+ 494534 words of memory out of 3000000
+ 23237 multiletter control sequences out of 15000+200000
+ 37142 words of font info for 78 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 46i,9n,53p,839b,888s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,14n,53p,839b,888s stack positions out of 5000i,500n,10000p,200000b,50000s
 {H:/Progam Files/miktxport/fonts/enc/dvips/iwona/ec-iwona.enc} <H:\Progam Fil
 es\miktxport\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <H:\Progam Files\m
 iktxport\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1095.pk> <H:\Progam Files\miktx
@@ -2630,16 +2671,17 @@ port\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <H:\Progam Files\miktxport
 s/type1/public/amsfonts/cm/cmex10.pfb><H:/Progam Files/miktxport/fonts/type1/pu
 blic/amsfonts/cm/cmmi10.pfb><H:/Progam Files/miktxport/fonts/type1/public/amsfo
 nts/cm/cmmi6.pfb><H:/Progam Files/miktxport/fonts/type1/public/amsfonts/cm/cmmi
-8.pfb><H:/Progam Files/miktxport/fonts/type1/public/amsfonts/cm/cmr10.pfb><H:/P
-rogam Files/miktxport/fonts/type1/public/amsfonts/cm/cmr6.pfb><H:/Progam Files/
-miktxport/fonts/type1/public/amsfonts/cm/cmr8.pfb><H:/Progam Files/miktxport/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb><H:/Progam Files/miktxport/fonts/type1/
-public/amsfonts/cm/cmsy6.pfb><H:/Progam Files/miktxport/fonts/type1/nowacki/iwo
-na/iwonab.pfb><H:/Progam Files/miktxport/fonts/type1/nowacki/iwona/iwonar.pfb><
-H:/Progam Files/miktxport/fonts/type1/nowacki/iwona/iwonari.pfb>
-Output written on protokoll.pdf (15 pages, 661415 bytes).
+7.pfb><H:/Progam Files/miktxport/fonts/type1/public/amsfonts/cm/cmmi8.pfb><H:/P
+rogam Files/miktxport/fonts/type1/public/amsfonts/cm/cmr10.pfb><H:/Progam Files
+/miktxport/fonts/type1/public/amsfonts/cm/cmr6.pfb><H:/Progam Files/miktxport/f
+onts/type1/public/amsfonts/cm/cmr8.pfb><H:/Progam Files/miktxport/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><H:/Progam Files/miktxport/fonts/type1/public/amsf
+onts/cm/cmsy6.pfb><H:/Progam Files/miktxport/fonts/type1/nowacki/iwona/iwonab.p
+fb><H:/Progam Files/miktxport/fonts/type1/nowacki/iwona/iwonar.pfb><H:/Progam F
+iles/miktxport/fonts/type1/nowacki/iwona/iwonari.pfb>
+Output written on protokoll.pdf (19 pages, 775979 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 417 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
