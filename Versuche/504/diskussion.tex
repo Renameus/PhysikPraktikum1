@@ -1,0 +1,43 @@
+\subsection{Kennlinien der Hochvakuumdiode}
+	Unter Verwendung des Literaturwertes\cite{tafel} von
+\begin{align}
+	e_0\varphi&=4{,}53eV
+ \end{align}
+ lassen sich nach der Richardson-Gleichung (Gl.\ref{eqrichard}) die Sättigungsstromgrenzen berechnen (Tab.\ref{tablitis}).
+ \input{tablitis.tex}
+ Vergleicht man nun $I_{S,mess}$ mit $I_{S,errechnet}$, so sind große Unterschiede zu erkennen.\\
+ Das könnte daran liegen, dass schon relativ kleine Unterschiede der Ausgangswerten $T$ und $I_S$
+ das Ergebnis stark beeinflussen.
+ \FloatBarrier
+\subsection{Langmuir-Schottkysches-Gesetz}
+Der Theoriewert des Exponenten der Strom-Spannungs-Beziehung lässt sich aus Gleichung \ref{eqlangmuir} ablesen.
+Der Exponent der Messwerte wurde in Gleichung \ref{exalpha} bestimmt.
+\begin{align}
+Theorie: I&\sim U^{\alpha_{errechnet}}=U^{\frac{3}{2}}=U^{1{,}5} \\
+Messung: I&\sim U^{\alpha_{mess}}=U^{1{,}18} \\
+\Delta \alpha &=22\%
+\end{align}
+Dieser Unterschied bedeuted, wie auch in Abbildung \ref{picb1} zu erkennen ist, dass die Stromstärke
+mit steigender Spannung nicht so schnell zu nimmt, wie sie es theoretisch sollte. \\
+Dieser Differenz könnten Stromstärkeverluste an zu Grunde liegen, die daher kommen, dass auf Grund eines
+Hochvakuums geringer Qualität zu viele Elektronen an Luftmolekülen wechselwirken.
+\subsection{Kathodentemperatur im Anlaufstromgebiet}
+Bei der Untersuchung des Anlaufstromgebietes in Bezug auf die Kathodentemperatur sind folgende Ergebnisse
+gemessen worden (vgl. \ref{tabc1})
+\input{tabanlauft}
+Da die Heizspannung entgegen dem Konstantspannungsgerät und parallel zur Diode gepolt ist, wirkt sich der Spannungsabfall längs des
+Heizfadens nicht entscheident auf das Messergebnis aus.
+\FloatBarrier
+\subsection{Kathodentemperatur bei Saugspannung}
+Die Messergebnisse der Kathodentemperatur sind in Tabelle \ref{tabkattemp} zusammengefasst (vgl. Tab. \ref{tabd1}).
+\input{tabkattemp}
+\FloatBarrier
+\subsection{Austrittsarbeit des Kathodenmaterials}
+Die errechnete Austrittsarbeit (Gl.\ref{eqphi}) unterscheidet sich signifikant von dem Literaturwert\cite{tafel}.
+\begin{align}
+	e_0\varphi_{Lit}&=4{,}53eV \\
+	e_0\varphi_{mess}&=6{,}5eV\\
+	\Delta e_0\varphi&=43\%
+ \end{align}
+ Ein Grund für diesen Unterschied könnte sein, dass die reale Temperatur geringer war, als die aus den Messergebnissen errechnete.
+ 

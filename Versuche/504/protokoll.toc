@@ -10,3 +10,8 @@
 \contentsline {subsection}{\numberline {3.4}Kathodentemperatur bei Saugspannung}{17}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}Austrittsarbeit des Kathodenmaterials}{19}{subsection.3.5}
 \contentsline {section}{\numberline {4}Diskussion}{19}{section.4}
+\contentsline {subsection}{\numberline {4.1}Kennlinien der Hochvakuumdiode}{19}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Langmuir-Schottkysches-Gesetz}{20}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Kathodentemperatur im Anlaufstromgebiet}{20}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Kathodentemperatur bei Saugspannung}{20}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Austrittsarbeit des Kathodenmaterials}{21}{subsection.4.5}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,5 +12,10 @@
 John~R. Taylor.
 \newblock \emph{An introduction to error analysis}.
 \newblock University Science Books, 2 edition, 1997.
+
+\bibitem[Winter(2009)]{tafel}
+Dr.~Rolf Winter.
+\newblock \emph{Das große Tafelwerk}.
+\newblock Cornelsen, 2009.
 
 \end{thebibliography}

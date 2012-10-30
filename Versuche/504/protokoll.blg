@@ -6,9 +6,14 @@ I was expecting a `,' or a `}'---line 19 of file lit.bib
  : edition = {}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 29 of file lit.bib
+ : 
+ : edition = {1}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--to sort, need author, editor, or key in anleitung
 Warning--empty author and editor in anleitung
 Warning--empty publisher in anleitung
 Warning--empty year in anleitung
 Warning--empty year in anleitung
-(There was 1 error message)
+(There were 2 error messages)
