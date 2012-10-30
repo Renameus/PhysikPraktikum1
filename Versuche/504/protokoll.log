@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.5)  30 OCT 2012 21:41
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.5)  30 OCT 2012 22:14
 entering extended mode
 **protokoll.tex
 (F:\Documents\uni\Git\Physik\Versuche\504\protokoll.tex
@@ -2657,21 +2657,115 @@ ei-det sich si-gni-fi-kant von dem Literaturwert[[]].
  []
 
 ) (F:\Documents\uni\Git\Physik\Versuche\504\protokoll.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
- [21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
+<img001.jpg, id=286, 614.295pt x 845.3181pt>
+File: img001.jpg Graphic file (type jpg)
+ <use img001.jpg>
+Package pdftex.def Info: img001.jpg used on input line 81.
+(pdftex.def)             Requested size: 460.72011pt x 633.98703pt.
+
+<img002.jpg, id=287, 614.295pt x 845.3181pt>
+File: img002.jpg Graphic file (type jpg)
+ <use img002.jpg>
+Package pdftex.def Info: img002.jpg used on input line 82.
+(pdftex.def)             Requested size: 460.72011pt x 633.98703pt.
+
+<img003.jpg, id=288, 614.295pt x 845.3181pt>
+File: img003.jpg Graphic file (type jpg)
+ <use img003.jpg>
+Package pdftex.def Info: img003.jpg used on input line 83.
+(pdftex.def)             Requested size: 460.72011pt x 633.98703pt.
+
+<img004.jpg, id=289, 614.295pt x 845.3181pt>
+File: img004.jpg Graphic file (type jpg)
+ <use img004.jpg>
+Package pdftex.def Info: img004.jpg used on input line 84.
+(pdftex.def)             Requested size: 460.72011pt x 633.98703pt.
+
+<img005.jpg, id=290, 614.295pt x 845.3181pt>
+File: img005.jpg Graphic file (type jpg)
+ <use img005.jpg>
+Package pdftex.def Info: img005.jpg used on input line 85.
+(pdftex.def)             Requested size: 460.72011pt x 633.98703pt.
+
+<img006.jpg, id=291, 614.295pt x 845.3181pt>
+File: img006.jpg Graphic file (type jpg)
+ <use img006.jpg>
+Package pdftex.def Info: img006.jpg used on input line 86.
+(pdftex.def)             Requested size: 460.72011pt x 633.98703pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
+
+Overfull \hbox (42.46455pt too wide) in paragraph at lines 81--87
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--87
+
+ []
+
+
+Overfull \hbox (42.46455pt too wide) in paragraph at lines 81--87
+[]
+ []
+
+
+Overfull \hbox (42.46455pt too wide) in paragraph at lines 81--87
+[]
+ []
+
+
+Overfull \hbox (42.46455pt too wide) in paragraph at lines 81--87
+[]
+ []
+
+
+Overfull \hbox (42.46455pt too wide) in paragraph at lines 81--87
+[]
+ []
+
+
+Overfull \hbox (42.46455pt too wide) in paragraph at lines 81--87
+[] 
+ []
+
+[21]
+Overfull \vbox (51.78677pt too high) has occurred while \output is active []
+
+
+[22 <F:/Documents/uni/Git/Physik/Versuche/504/img001.jpg>]
+Overfull \vbox (38.18677pt too high) has occurred while \output is active []
+
+
+[23 <F:/Documents/uni/Git/Physik/Versuche/504/img002.jpg>]
+Overfull \vbox (38.18677pt too high) has occurred while \output is active []
+
+
+[24 <F:/Documents/uni/Git/Physik/Versuche/504/img003.jpg>]
+Overfull \vbox (38.18677pt too high) has occurred while \output is active []
+
+
+[25 <F:/Documents/uni/Git/Physik/Versuche/504/img004.jpg>]
+Overfull \vbox (38.18677pt too high) has occurred while \output is active []
+
+
+[26 <F:/Documents/uni/Git/Physik/Versuche/504/img005.jpg>]
+Overfull \vbox (38.18677pt too high) has occurred while \output is active []
+
+
+[27 <F:/Documents/uni/Git/Physik/Versuche/504/img006.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
 
 (F:\Documents\uni\Git\Physik\Versuche\504\protokoll.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `protokoll.out' has not changed.
 (rerunfilecheck)             Checksum: 0AD22E12818D91761F16BF5F4C46C679;1177.
  ) 
 Here is how much of TeX's memory you used:
- 20421 strings out of 494045
- 397817 string characters out of 3149241
+ 20457 strings out of 494045
+ 398273 string characters out of 3149241
  494534 words of memory out of 3000000
- 23259 multiletter control sequences out of 15000+200000
+ 23283 multiletter control sequences out of 15000+200000
  37142 words of font info for 78 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  46i,14n,53p,839b,888s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2691,9 +2785,9 @@ ublic/amsfonts/cm/cmsy10.pfb><H:/Progam Files/miktxport/fonts/type1/public/amsf
 onts/cm/cmsy6.pfb><H:/Progam Files/miktxport/fonts/type1/nowacki/iwona/iwonab.p
 fb><H:/Progam Files/miktxport/fonts/type1/nowacki/iwona/iwonar.pfb><H:/Progam F
 iles/miktxport/fonts/type1/nowacki/iwona/iwonari.pfb>
-Output written on protokoll.pdf (21 pages, 795901 bytes).
+Output written on protokoll.pdf (27 pages, 7010089 bytes).
 PDF statistics:
- 476 PDF objects out of 1000 (max. 8388607)
- 88 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 508 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
 
