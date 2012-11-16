@@ -7,11 +7,9 @@
 \contentsline {subsection}{\numberline {3.1}Kennlinien der Hochvakuumdiode}{5}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Langmuir-Schottkysches-Gesetz}{15}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Kathodentemperatur im Anlaufstromgebiet}{16}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Kathodentemperatur bei Saugspannung}{18}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.4}Kathodentemperatur bei Saugspannung}{19}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}Austrittsarbeit des Kathodenmaterials}{20}{subsection.3.5}
-\contentsline {section}{\numberline {4}Diskussion}{20}{section.4}
-\contentsline {subsection}{\numberline {4.1}Kennlinien der Hochvakuumdiode}{20}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Langmuir-Schottkysches-Gesetz}{21}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Kathodentemperatur im Anlaufstromgebiet}{21}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Kathodentemperatur bei Saugspannung}{21}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Austrittsarbeit des Kathodenmaterials}{22}{subsection.4.5}
+\contentsline {section}{\numberline {4}Diskussion}{21}{section.4}
+\contentsline {subsection}{\numberline {4.1}Langmuir-Schottkysches-Gesetz}{21}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Kathodentemperatur bei Saugspannung}{21}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Austrittsarbeit des Kathodenmaterials}{22}{subsection.4.3}

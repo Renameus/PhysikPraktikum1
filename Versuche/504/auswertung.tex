@@ -24,9 +24,12 @@ I&\sim U^\alpha \\
 \FloatBarrier
 Aus der linearen Regression nach \cite{linreg} berechnet sich der gesuchte Exponent $\alpha$ beziehungsweise die Ausgleichskurve (Abb. \ref{picb1}).
 \begin{align}
-t&=a*x+b \\
-a&=\alpha=1,18 \label{exalpha}\\
+y&=a*x+b \\
+\Leftrightarrow ln(I)&=1,1808*ln(U)-5,3443 \\
+a&=\alpha=1,1808 \label{exalpha}\\
+\Delta a&=1,46\% \\
 b&=-5.3443 \\
+\Delta b&=6,50\% \\
 \Rightarrow I&=U^\alpha*e^b 
 \end{align}
 \input{picb1.tex}
@@ -44,9 +47,11 @@ N_{WL}&=0,95W .
 \end{align} 
 Die Werte sind in Abbildung \ref{picc1} veranschaulicht.
 \begin{align}
-U_{Heiz,real}&=U_{Heiz}-R*I_S \label{eqcureal}\\
-mit: R&=1M\Omega \\
+U_a'&=U_a+R*I_a\\
+\Rightarrow U_{Heiz,real}&=U_{Heiz}-R*I_S \label{eqcureal}\\
+mit: R&=1M\Omega
 \end{align}
+\input{tabcdata.tex}
 \input{tabc1.tex} \input{picc1.tex}
 \FloatBarrier
 \subsection{Kathodentemperatur bei Saugspannung}
