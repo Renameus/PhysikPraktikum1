@@ -40,17 +40,27 @@ die angezeigte Spannung $U_{Heiz}$ nach $U_{Heiz,real}$ korrigieren. Daraus läs
 Gleichung \ref{eqtemp} T berechnen (Tab. \ref{tabc1}). Die genutzen Apparaturkonstanten waren dabei:
 \begin{align}
 \begin{split}
-f&=0,335cm^2 \label{eqdatatemp}\\
+f&=0,32cm^2 \label{eqdatatemp}\\
 \eta&=0,28\\
 N_{WL}&=0,95W .
 \end{split}
 \end{align} 
+Eine lineare Ausgleichsrechnung \cite{linreg} ergibt folgende Werte.
+\begin{align}
+y&=a*x+b\\
+T&=107,43 \frac{1}{\text{V}}*U_{Heiz,real}+1643,81\text{K}\\
+a&=107,43 \frac{1}{\text{V}}\\
+\Delta a&=0,7\%\\
+b&=1643,81\text{K}\\
+\Delta b&=0,2\%
+\end{align}
 Die Werte sind in Abbildung \ref{picc1} veranschaulicht.
 \begin{align}
 U_a'&=U_a+R*I_a\\
-\Rightarrow U_{Heiz,real}&=U_{Heiz}-R*I_S \label{eqcureal}\\
+\Rightarrow U_{Heiz,real}&=U_{Heiz}-(U_{gegen}+R*I_S) \label{eqcureal}\\
 mit: R&=1M\Omega
 \end{align}
+
 \input{tabcdata.tex}
 \input{tabc1.tex} \input{picc1.tex}
 \FloatBarrier
@@ -67,7 +77,7 @@ verwendet. Die Ergebnisse für die Austrittsarbeit $e_o\varphi$ sind in Tabelle 
 Der Mittelwert der Austrittsarbeit $\overline{e_o\varphi}$, welcher nach Gleichung \ref{eqmittwert} berechnet
 wird, beträgt:
 \begin{align}
-\overline{e_o\varphi}&=6{,}5\overline{3} \label{eqphi} \\
+\overline{e_o\varphi}&=4,84\overline{3} \label{eqphi} \\
 \overline{x}&=\frac{1}{N}\sum\limits_{i=1}^N x_i \label{eqmittwert}
 \end{align}
 \input{tabe1.tex}

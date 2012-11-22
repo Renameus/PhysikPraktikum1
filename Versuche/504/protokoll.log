@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.5)  16 NOV 2012 19:48
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.5)  22 NOV 2012 21:45
 entering extended mode
 **protokoll.tex
 (F:\Documents\uni\Git\Physik\Versuche\504\protokoll.tex
@@ -2605,9 +2605,12 @@ Overfull \hbox (15.36337pt too wide) in paragraph at lines 3--4
 
 ) [16 <F:/Documents/uni/Git/Physik/Versuche/504/picb1.jpg>]
 (F:\Documents\uni\Git\Physik\Versuche\504\tabcdata.tex)
-(F:\Documents\uni\Git\Physik\Versuche\504\tabc1.tex)
-(F:\Documents\uni\Git\Physik\Versuche\504\picc1.tex
-<picc1.jpg, id=220, 578.16pt x 431.4519pt>
+(F:\Documents\uni\Git\Physik\Versuche\504\tabc1.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (F:\Documents\uni\Git\Physik\Versuche\504\picc1.tex
+<picc1.jpg, id=221, 578.16pt x 431.4519pt>
 File: picc1.jpg Graphic file (type jpg)
  <use picc1.jpg>
 Package pdftex.def Info: picc1.jpg used on input line 3.
@@ -2617,17 +2620,13 @@ Overfull \hbox (15.36337pt too wide) in paragraph at lines 3--4
  [] 
  []
 
-)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[17] [18 <F:/Documents/uni/Git/Physik/Versuche/504/picc1.jpg>]
+) [17] [18 <F:/Documents/uni/Git/Physik/Versuche/504/picc1.jpg>]
 (F:\Documents\uni\Git\Physik\Versuche\504\tabd1.tex)
 (F:\Documents\uni\Git\Physik\Versuche\504\picd1.tex
-<picd1.jpg, id=242, 578.16pt x 431.4519pt>
+<picd1.jpg, id=249, 578.16pt x 431.4519pt>
 File: picd1.jpg Graphic file (type jpg)
  <use picd1.jpg>
 Package pdftex.def Info: picd1.jpg used on input line 3.
@@ -2649,44 +2648,39 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [20 <F:/Documents/uni/Git/Physik/Versuche/504/picd1.jpg>])
 (F:\Documents\uni\Git\Physik\Versuche\504\diskussion.tex
-(F:\Documents\uni\Git\Physik\Versuche\504\tabkattemp.tex)
-Overfull \hbox (3.05603pt too wide) in paragraph at lines 36--37
-\T1/iwona/m/n/10.95 Die er-rech-ne-te Aus-tritts-ar-beit (Gl.[]19[]) un-ter-sch
-ei-det sich si-gni-fi-kant von dem Literaturwert[[]]. 
- []
-
-[21]) (F:\Documents\uni\Git\Physik\Versuche\504\protokoll.bbl)
-<img001.jpg, id=277, 614.295pt x 845.3181pt>
+(F:\Documents\uni\Git\Physik\Versuche\504\tabkattemp.tex) [21])
+(F:\Documents\uni\Git\Physik\Versuche\504\protokoll.bbl)
+<img001.jpg, id=284, 614.295pt x 845.3181pt>
 File: img001.jpg Graphic file (type jpg)
  <use img001.jpg>
 Package pdftex.def Info: img001.jpg used on input line 81.
 (pdftex.def)             Requested size: 460.72011pt x 633.98703pt.
 
-<img002.jpg, id=278, 614.295pt x 845.3181pt>
+<img002.jpg, id=285, 614.295pt x 845.3181pt>
 File: img002.jpg Graphic file (type jpg)
  <use img002.jpg>
 Package pdftex.def Info: img002.jpg used on input line 82.
 (pdftex.def)             Requested size: 460.72011pt x 633.98703pt.
 
-<img003.jpg, id=279, 614.295pt x 845.3181pt>
+<img003.jpg, id=286, 614.295pt x 845.3181pt>
 File: img003.jpg Graphic file (type jpg)
  <use img003.jpg>
 Package pdftex.def Info: img003.jpg used on input line 83.
 (pdftex.def)             Requested size: 460.72011pt x 633.98703pt.
 
-<img004.jpg, id=280, 614.295pt x 845.3181pt>
+<img004.jpg, id=287, 614.295pt x 845.3181pt>
 File: img004.jpg Graphic file (type jpg)
  <use img004.jpg>
 Package pdftex.def Info: img004.jpg used on input line 84.
 (pdftex.def)             Requested size: 460.72011pt x 633.98703pt.
 
-<img005.jpg, id=281, 614.295pt x 845.3181pt>
+<img005.jpg, id=288, 614.295pt x 845.3181pt>
 File: img005.jpg Graphic file (type jpg)
  <use img005.jpg>
 Package pdftex.def Info: img005.jpg used on input line 85.
 (pdftex.def)             Requested size: 460.72011pt x 633.98703pt.
 
-<img006.jpg, id=282, 614.295pt x 845.3181pt>
+<img006.jpg, id=289, 614.295pt x 845.3181pt>
 File: img006.jpg Graphic file (type jpg)
  <use img006.jpg>
 Package pdftex.def Info: img006.jpg used on input line 86.
@@ -2761,11 +2755,11 @@ Package rerunfilecheck Info: File `protokoll.out' has not changed.
 (rerunfilecheck)             Checksum: DB0A74496A88F7421240B254C89934E4;1006.
  ) 
 Here is how much of TeX's memory you used:
- 20448 strings out of 494045
- 398046 string characters out of 3149241
+ 20456 strings out of 494045
+ 398152 string characters out of 3149241
  495534 words of memory out of 3000000
- 23277 multiletter control sequences out of 15000+200000
- 37142 words of font info for 78 fonts, out of 3000000 for 9000
+ 23279 multiletter control sequences out of 15000+200000
+ 43402 words of font info for 80 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  46i,14n,53p,839b,892s stack positions out of 5000i,500n,10000p,200000b,50000s
 {H:/Progam Files/miktxport/fonts/enc/dvips/iwona/ec-iwona.enc} <H:\Progam Fil
@@ -2785,9 +2779,9 @@ onts/cm/cmsy6.pfb><H:/Progam Files/miktxport/fonts/type1/public/amsfonts/cm/cms
 y8.pfb><H:/Progam Files/miktxport/fonts/type1/nowacki/iwona/iwonab.pfb><H:/Prog
 am Files/miktxport/fonts/type1/nowacki/iwona/iwonar.pfb><H:/Progam Files/miktxp
 ort/fonts/type1/nowacki/iwona/iwonari.pfb>
-Output written on protokoll.pdf (28 pages, 7017391 bytes).
+Output written on protokoll.pdf (28 pages, 7012887 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
+ 523 PDF objects out of 1000 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
  183 words of extra memory for PDF output out of 10000 (max. 10000000)
 
