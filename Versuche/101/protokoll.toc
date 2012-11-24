@@ -4,5 +4,7 @@
 \contentsline {subsection}{\numberline {2.1}Eigenschaftenbestimmung der Versuchsanordnung}{4}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Tr\IeC {\"a}gheitsmoment einer Kugel und einer Scheibe}{4}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Tr\IeC {\"a}gheitsmoment einer Holzpuppe}{4}{subsection.2.3}
-\contentsline {section}{\numberline {3}Auswertung}{4}{section.3}
-\contentsline {section}{\numberline {4}Diskussion}{4}{section.4}
+\contentsline {section}{\numberline {3}Auswertung}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Winkelrichtgr\IeC {\"o}\IeC {\ss }e und Eigentr\IeC {\"a}gheitsmoment der Drillachse}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Tr\IeC {\"a}gheitsmoment einer Kugel und eines Zylinders}{6}{subsection.3.2}
+\contentsline {section}{\numberline {4}Diskussion}{6}{section.4}
