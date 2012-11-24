@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.2)  22 NOV 2012 19:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.2)  24 NOV 2012 14:34
 entering extended mode
 **protokoll.tex
 ("C:\Users\Marc Posorske\Documents\Praktikum\Versuche\101\protokoll.tex"
@@ -2489,37 +2489,96 @@ File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 
 [2] ("C:\Users\Marc Posorske\Documents\Praktikum\Versuche\101\theorie.tex")
 ("C:\Users\Marc Posorske\Documents\Praktikum\Versuche\101\durchfuehrung.tex")
-("C:\Users\Marc Posorske\Documents\Praktikum\Versuche\101\auswertung.tex")
-("C:\Users\Marc Posorske\Documents\Praktikum\Versuche\101\diskussion.tex")
+("C:\Users\Marc Posorske\Documents\Praktikum\Versuche\101\auswertung.tex"
+("C:\Users\Marc Posorske\Documents\Praktikum\Versuche\101\taba1.tex"
+LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <10> not available
+(Font)              Font shape `T1/iwona/b/n' tried instead on input line 17.
+)
+("C:\Users\Marc Posorske\Documents\Praktikum\Versuche\101\tabb1.tex")
+("C:\Users\Marc Posorske\Documents\Praktikum\Versuche\101\eigentragmom.tex"
+<eigentragmom.jpg, id=51, 830.3823pt x 578.16pt>
+File: eigentragmom.jpg Graphic file (type jpg)
+ <use eigentragmom.jpg>
+Package pdftex.def Info: eigentragmom.jpg used on input line 3.
+(pdftex.def)             Requested size: 166.07352pt x 115.62994pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 6--13
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/iwona/b/n' tried instead on input line 15.
+
+LaTeX Warning: Reference `' on page 3 undefined on input line 15.
+
+
+LaTeX Warning: Reference `' on page 3 undefined on input line 15.
+
+
+LaTeX Warning: Reference `' on page 3 undefined on input line 20.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--27
+
+ []
+
+[3] ("C:\Users\Marc Posorske\Documents\Praktikum\Versuche\101\tab2.tex"
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)) [4 <C:/Users/Marc Posorske/Documents/Praktikum/Versuche/101/eigentragmom.jpg
+>] ("C:\Users\Marc Posorske\Documents\Praktikum\Versuche\101\diskussion.tex")
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
 
-[3]
+[5]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
  ("C:\Users\Marc Posorske\Documents\Praktikum\Versuche\101\protokoll.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `protokoll.out' has not changed.
-(rerunfilecheck)             Checksum: 088C3C15BDC846AE5D6E70A53CDE2A05;186.
+(rerunfilecheck)             Checksum: 39E2BA1C081A50C59613A3669F5BD22A;401.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
- 20128 strings out of 494045
- 393103 string characters out of 3148363
- 472256 words of memory out of 3000000
- 23117 multiletter control sequences out of 15000+200000
- 29435 words of font info for 70 fonts, out of 3000000 for 9000
+ 20188 strings out of 494045
+ 394392 string characters out of 3148363
+ 485256 words of memory out of 3000000
+ 23153 multiletter control sequences out of 15000+200000
+ 35695 words of font info for 72 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 46i,7n,53p,294b,876s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Marc Posorske\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ecsx1440.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/iwona/ec-iwona
-.enc} <C:\Users\Marc Posorske\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
+ 46i,10n,53p,294b,886s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/iwona/ec-iwona.enc} <C:\Users\Ma
+rc Posorske\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx144
+0.pk> <C:\Users\Marc Posorske\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
 \ec\dpi600\ecsx1095.pk> <C:\Users\Marc Posorske\AppData\Local\MiKTeX\2.9\fonts\
 pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\Marc Posorske\AppData\Local
 \MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/nowacki/iwona/iwonar.pfb>
-Output written on protokoll.pdf (3 pages, 65206 bytes).
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/nowacki/iwona/iwonab.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/nowacki/iwona/iwonar.pfb>
+Output written on protokoll.pdf (5 pages, 777791 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 236 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
