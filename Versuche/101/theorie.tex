@@ -12,13 +12,14 @@ Das Trägheitsmoment ist von der Drehachsenlage und von der Masse des drehenden 
  für geometrische Standartkörper mit Drehungen um ihren Masseschwerpunkt herleiten.
  \begin{align}
 	\text{langer dünner Stab}(\vec l \perp \vec \omega) \text{  } I&=\frac{1}{12} m l^2 \\
-	\text{Kugel } I&=\frac{2}{5} m R^2 \\
-	\text{Zylinder} (\vec R \perp \vec \omega) \text{  } I&=\frac{1}{2} m R^2 \\
-	\text{Zylinder} (\vec R \| \vec \omega) \text{  } I&=m (\frac{1}{4} R^2 + \frac{1}{12} h^2)
+	\text{Kugel } I&=\frac{2}{5} m R^2 \label{eqkugel}\\
+	\text{Zylinder} (\vec R \perp \vec \omega) \text{  } I&=\frac{1}{2} m R^2 \label{eqzylsenk}\\
+	\text{Zylinder} (\vec R \| \vec \omega) \text{  } I&=m (\frac{1}{4} R^2 + \frac{1}{12} h^2) \label{eqzylpar}
  \end{align}
  Für den Fall, dass die Schwerpunktachse um $a$ parallel verschoben ist, gilt der Steinersche Satz:
  \begin{align}
 	I&=I_{Schwerpunkt} + m a^2
+	\label{eqsteiner}
  \end{align}
  Das Drehmoment $M$ bei die Rotation ist vergleichbar mit der Kraft $F$ bei Translation.
  \begin{align}
@@ -36,6 +37,6 @@ Das Trägheitsmoment ist von der Drehachsenlage und von der Masse des drehenden 
  Zusammenhang mit dem Drehmoment. Die dynamische Methode (Gl. \ref{eqddyn}) lässt sich bei bekanntem
  Trägheitsmoment aus der Periodendauer $T$ bestimmen.
 \begin{align}
-	T&=2\pi\sqrt{\frac{I}{D}} \text{ (für kleine Winkel)}\\
+	T&=2\pi\sqrt{\frac{I}{D}} \text{ (für kleine Winkel)} \label{eqti}\\
 	\Rightarrow D&=I(\frac{T}{2\pi})^{-2} \label{eqddyn}
-\end{align} 
+\end{align}
