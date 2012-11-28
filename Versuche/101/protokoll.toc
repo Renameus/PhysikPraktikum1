@@ -9,3 +9,7 @@
 \contentsline {subsection}{\numberline {3.2}Tr\IeC {\"a}gheitsmoment einer Kugel und eines Zylinders}{6}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Tr\IeC {\"a}gheitsmoment der Tr\IeC {\"a}gheitspuppe}{7}{subsection.3.3}
 \contentsline {section}{\numberline {4}Diskussion}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Eigentr\IeC {\"a}gheitsmoment und Winkelrichtgr\IeC {\"o}\IeC {\ss }e}{8}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Tr\IeC {\"a}gheitsmoment der Kugel und Scheibe}{9}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Tr\IeC {\"a}gheitsmoment der Tr\IeC {\"a}gheitspuppe}{9}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Abweichung der gemessenen von den errechneten Werten}{9}{subsection.4.4}
