@@ -1,6 +1,11 @@
 \select@language {ngerman}
-\contentsline {section}{\numberline {1}Einleitung}{2}{section.1}
-\contentsline {section}{\numberline {2}Theorie}{2}{section.2}
-\contentsline {section}{\numberline {3}Durchf\IeC {\"u}hrung}{2}{section.3}
-\contentsline {section}{\numberline {4}Auswertung}{2}{section.4}
-\contentsline {section}{\numberline {5}Diskussion}{2}{section.5}
+\contentsline {section}{\numberline {1}Theorie}{2}{section.1}
+\contentsline {section}{\numberline {2}Durchf\IeC {\"u}hrung}{2}{section.2}
+\contentsline {section}{\numberline {3}Auswertung}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}Bestimmung der W\IeC {\"a}rmekapazit\IeC {\"a}t des Kaloriemeters}{2}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Bestimmung der W\IeC {\"a}rmekapazit\IeC {\"a}t von Graphit}{2}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Bestimmung der W\IeC {\"a}rmekapazit\IeC {\"a}t von Kupfer}{3}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Bestimmung der W\IeC {\"a}rmekapazit\IeC {\"a}t von Blei}{4}{subsection.3.4}
+\contentsline {section}{\numberline {4}Diskussion}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Bestimmung der W\IeC {\"a}rmekapazit\IeC {\"a}t des Kaloriemeters}{5}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Bestimmung der W\IeC {\"a}rmekapazit\IeC {\"a}t verschiedener Proben}{6}{subsection.4.2}
