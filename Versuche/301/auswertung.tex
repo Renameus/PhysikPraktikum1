@@ -1,0 +1,57 @@
+%picb,picc,picdr,picds,pice,tabb,tabc,tabdr,tabds,tabe
+%eqrib,equob
+
+\subsection{Innenwiderstand und Leerlaufspannung der verschiedenen Spannungsquellen}
+\input{picb.tex} \input{picc.tex} \input{picdr.tex} \input{picds.tex}
+\input{tabb.tex} \input{tabc.tex} \input{tabdr.tex} \input{tabds.tex}
+Trägt man die Messwerte (Tab. \ref{tabb} - \ref{tabds}) der einzelnen Versuche 
+auf (Abb. \ref{picb} - \ref{picds}), so lässt sich jeweils eine lineare Regression \cite{linreg}
+durchführen und daraus über Gleichung \ref{equk} auf die Leerlaufspannung und den Innenwiderstand
+schließen. 
+\begin{align}
+\text{Monozelle mit Belastungswiderstand (0-50 $\Omega$)} \nonumber \\
+U_k&=U_0-I R_i \\
+\Leftrightarrow y&=b+a*x \\
+\Leftrightarrow U&=1.5927\text{ V}+(-6.5829)\Omega*I \\
+-a&=(6.5829\pm 0.1742)\Omega=R_i \label{eqrib}\\
+b&=(1.5927\pm 0.0205)\text{ V}=U_0 \label{equob}\\
+
+\text{Monozelle mit Belastungswiderstand (0-50 $\Omega$) und Gegenspannung (3,575 V)} \nonumber \\
+U_k&=U_0+I R_i \\
+\Leftrightarrow y&=b+a*x \\
+\Leftrightarrow U&=1.6662\pm\text{ V}-6.6078\Omega*I \\
+a&=(6.6078\pm 0.2212)\Omega=R_i\\
+b&=(1.6662\pm 0.0320)\text{ V}=U_0\\
+
+\text{Rechteckspannung mit Belastungswiderstand (20-250 $\Omega$)} \nonumber \\
+U_k&=U_0-I R_i \\
+\Leftrightarrow y&=b+a*x \\
+\Leftrightarrow U&=0.5728\text{ V}+(-48.1232)\Omega*I \\
+-a&=(48.1232\pm 1.1149)\Omega=R_i\\
+b&=(0.5728\pm 0.0050)\text{ V}=U_0\\
+
+\text{Sinusspannung mit Belastungswiderstand (0,1-5 k$\Omega$)} \nonumber \\
+U_k&=U_0-I R_i \\
+\Leftrightarrow y&=b+a*x \\
+\Leftrightarrow U&=1.8024\text{ V}+(-535.9086)\Omega*I \\
+-a&=(535.9086\pm 4.5713)\Omega=R_i\\
+b&=(1.8024\pm 0.0069)\text{ V}=U_0\\
+\end{align}
+\FloatBarrier
+\subsection{Direkte Messung der Leerlaufspannung der Monozelle}
+Da bei der Messung der Leerlaufspannung $U_0=1,575 \text{ V}$ der Eingangswiderstand $R_V=10\text{M}\Omega$
+einen endlichen Wert besaß kommt es mit $R_i=6.5829\Omega$ (Gl. \ref{eqrib}) zu einem Messfehler nach Gleichung \ref{equk}.
+\begin{align}
+\Delta U_{0}&=\frac{U_{0,mess}}{R_V}*R_i=1,0368*10^{-6}\Omega
+\end{align}
+\subsection{Umgesetzte Leistung des Belastungswiderstandes bei einer Monozelle}
+\input{pice.tex} \input{tabe.tex}
+Aus Tabelle \ref{tabe} lässt sich mit Gleichung \ref{eqn} und \ref{equk} Abbildung \ref{pice} erstellen.
+Außerdem ist mit den Werten aus Gleichung \ref{eqrib} und \ref{equob} die Theoriekurve eingezeichnet worden.
+\begin{align}
+R_a&=\frac{U_k}{I} \\
+\Rightarrow N_{Versuch}&=I U_k \\ 
+U_k&=U_0-I R_i \\
+\Rightarrow N_{Theorie}=I (U_0 - I R_i)
+\end{align}
+\FloatBarrier
