@@ -1,0 +1,40 @@
+\subsection{Innenwiderstand und Leerlaufspannung}
+Waren die verschiedenen Probleme durch defekte Versuchsgeräte ausgeräumt, so waren die einzelnen
+Messungen immer noch recht ungenau, da teilweise neben den Ablesefehlern auch noch ein Knopf zur Aktivierung des
+Belastungswiderstands gedrückt werden musste, dabei hing der Belastungswiderstand von der Kraft des Druckes ab.
+\begin{align}
+U_{0,direkt}&=1,575 \text{ V} \\
+\Delta U_{0,direkt}&=1,0368*10^{-6}\text{ V}\\
+U_{0,belastet}&=(1.5927\pm 0.0205)\text{ V}\\
+R_{i,belastet}&=(6.5829\pm 0.1742)\Omega\\
+U_{0,belastet + gegen}&=(1.6662\pm 0.0320)\text{ V}\\
+R_{i,belastet + gegen}&=(6.6078\pm 0.2212)\Omega
+\end{align}
+Der Wert der direkten Messung der Leerlaufspannung der Monozelle 
+passt gut zu den errechneten Werten der linearen Regression der Monozelle. Dabei ist anzumerken, dass die direkte Messung
+im Gegensatz zu den anderen Messreihen nur auf einem einzelnen Wert beruht. Der aus den Messreihen erkennbare Unterschied des Innenwiderstands liegt nicht einmal im einstelligen Prozentbereich, woraus sich auf eine einigermaßen gute Genauigkeit schließen lässt.\\
+Bei den zwei anderen Spannungsquellen lassen sich folgende Ergebnisse festhalten:
+\begin{align}
+R_{i,Rechteckspannung}&=(48.1232\pm 1.1149)\Omega\\
+U_{0,Rechteckspannung}&=(0.5728\pm 0.0050)\text{ V}\\
+R_{i,Sinusspannung}&=(535.9086\pm 4.5713)\Omega\\
+U_{0,Sinusspannung}&=(1.8024\pm 0.0069)\text{ V}
+\end{align}
+Bei dem Vergleich mit den Werten der Monozelle zeigt sich, dass bei deutlich größerem Innenwiderstand der
+Rechtecksspannungsquelle die Leerlaufspannung wesentlich kleiner ist. Die Leerlaufspannung der
+Sinusspannungsquelle ist größer als diee der Monozelle, jedoch ist der Innenwiderstand noch viel
+größer als der Innenwiderstand der Rechtecksspannungsquelle. Diese Ergebnisse weisen auf einen 
+komplexeren Zusammenhang zwischen den einzelnen Größen.
+\subsection{Der systematische Fehler}
+Wird das Voltmeter hinter dem Amperemeter angelegt, also sozusagen um das Amperemeter
+herum, so wird natürlich nur die durch das Amperemeter verursachte Spannung gemessen, welche je
+nach Güte des Amperemeters verschieden kleine Werte besitzt, jedoch nicht die eigentlich
+zu messende Spannung $U_k$ widerspiegelt.\\
+Wird das Voltmeter hinter dem Amperemeter angelegt, also sozusagen um den Belastungswiderstand,
+so misst das Amperemeter nicht nur den Strom, der durch den Belastungswiderstand fließt, sondern
+auch den je nach Güte des Voltmeters verschieden kleinen Strom, welcher durch das Voltmeter selbst
+fließt. Das führt ebenfalls zu einem verfälschten Messergebnis.
+\subsection{Die umgesetzte Leistung im Belastungswiderstand}
+Aus Abbildung \ref{pice} wird deutlich, dass die Messwerte relativ gut zu den aus der Theorie erwarteten
+Werten passen. Bis auf ein paar vermutliche Mesungenauigkeiten kann nicht ohne weiteres auf eine 
+systematische Abweichung geschlossen werden. Gut erkennbar ist auch das Maximum der Kurve. Die maximale Leistung scheint bei einem Widerstand von $R_{a,max}=7\Omega$ erreicht zu werden.
