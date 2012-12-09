@@ -6,6 +6,6 @@
 \contentsline {subsection}{\numberline {3.2}Probe 1}{6}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Probe 2}{7}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Probe 3}{8}{subsection.3.4}
-\contentsline {section}{\numberline {4}Diskussion}{8}{section.4}
-\contentsline {subsection}{\numberline {4.1}G\IeC {\"u}te}{8}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Suszeptibilit\IeC {\"a}t seltener Erden}{8}{subsection.4.2}
+\contentsline {section}{\numberline {4}Diskussion}{9}{section.4}
+\contentsline {subsection}{\numberline {4.1}G\IeC {\"u}te}{9}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Suszeptibilit\IeC {\"a}t seltener Erden}{9}{subsection.4.2}
