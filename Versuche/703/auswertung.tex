@@ -1,0 +1,49 @@
+\subsection{Zählrohr-Charakteristik}
+Die Zählrohr-Charakteristik ist in Abbildung \ref{picA}, welche 
+die Messdaten aus Tabelle \ref{taba1} verwendet, abgebildet. 
+\input{taba1.tex} \input{picA.tex}
+\FloatBarrier
+Die Länge des Plateau-Bereiches lässt sich darauf aufbauend auf ungefähr
+290 Volt, von 360 Volt bis 650 Volt, abschätzen. Dieser Bereich ist in 
+Abbildung \ref{picAlinregwitherrors} mit einem Messfehler von unter $1\%$ (\cite{anleitung}, Seite 226) 
+noch einmal dargestellt, wobei in diesem Bereich (vgl. \ref{taba1})eine lineare 
+Ausgleichsrechnung \cite{linreg} (Gl. \ref{eqlinrega}) programmiert in Python durchgeführt wurde:
+\begin{align}
+y&=a*x+b \\
+\Leftrightarrow N&=0,0050\frac{1}{\text{s V}}*U+101,4606\frac{1}{\text{s}} \label{eqlinrega} \\
+a&=0,0050\frac{1}{\text{s V}} \label{eqalinrega}\\
+\Delta a&=38,0\% \\
+b&=101,4606\frac{1}{\text{s}}\\
+\Delta b&=0,9\%
+\end{align}
+\input{picAlinregwitherrors.tex}
+\FloatBarrier
+Aus der Linearen Regression lässt sich dann die Plateau-Steigung von $0,5\% \text{ pro } 
+100 \text{ Volt }$(Gl. \ref{eqalinrega}) ablesen.
+\subsection{Totzeitbestimmung nach der Zwei-Quellen-Methode}
+\FloatBarrier
+\input{tabc2.tex}
+Die Totzeit lässt sich nach Gleichung \ref{2} aus der Zwei-Quellen-Methode mit Tabelle \ref{tabc2} berechnen,
+der Fehler ergibt sich aus Gleichung \ref{totzeit2fehler}.
+\begin{align}
+\frac{N_{1+2}}{1 - T N_{1+2}}&=\frac{N_1}{1 - T N_1} + \frac{N_2}{1 - T N_2} \label{totzeit2fehler}\\
+T= 234,5 \mu\text{s} \label{eqtot2}\\
+\Delta T&=0,017\%
+\end{align}
+\subsection{Pro Teilchen freigesetzte Ladungsmenge im Zählrohr}
+\FloatBarrier
+Die pro Teilchen freigesetzte Ladungsmenge im Zählrohr lässt sich nach Gleichung \ref{ladungsmenge}
+berechnen.
+Daraus ergeben sich die Ladungsmengen in Tabelle \ref{tabd1} beziehungsweise Abbildung \ref{picD}.
+In dem linearen Bereich, abgeschätzt von U$=360$V bis U$=650$V,wurde eine lineare Ausgleichsrechnung \cite{linreg} (Gl. \ref{eqlinregd}) 
+programmiert in Python durchgeführt:
+\begin{align}
+y&=a*x+b \\
+\Leftrightarrow Q/e&=(1,2093 * 10^8) \frac{1}{\text{V}} *U+ (-3,1548 * 10^10) \label{eqlinregd} \\
+a&=(1,2093 * 10^8) \frac{1}{\text{V}} \label{eqalinregd}\\
+\Delta a&=1,3\% \\
+b&=-3,1548 * 10^10\\
+\Delta b&=2,8\%
+\end{align}
+\input{tabd1.tex} \input{picD.tex}
+\FloatBarrier
