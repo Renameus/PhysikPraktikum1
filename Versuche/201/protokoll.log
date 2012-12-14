@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.5)  4 DEC 2012 16:44
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.5)  14 DEC 2012 14:53
 entering extended mode
 **protokoll.tex
 (F:\Documents\uni\Git\Physik\Versuche\201\protokoll.tex
@@ -2489,36 +2489,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--15
 
  []
 
-) (F:\Documents\uni\Git\Physik\Versuche\201\durchfuehrung.tex [2])
+[2]) (F:\Documents\uni\Git\Physik\Versuche\201\durchfuehrung.tex)
 (F:\Documents\uni\Git\Physik\Versuche\201\auswertung.tex
 (F:\Documents\uni\Git\Physik\Versuche\201\tabmassen.tex
 LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <10> not available
 (Font)              Font shape `T1/iwona/b/n' tried instead on input line 11.
-)
-(F:\Documents\uni\Git\Physik\Versuche\201\taba1.tex) [3]
-(F:\Documents\uni\Git\Physik\Versuche\201\tablitdata.tex)
-(F:\Documents\uni\Git\Physik\Versuche\201\tabgraphit1.tex)
-(F:\Documents\uni\Git\Physik\Versuche\201\tabkupfer1.tex
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [4] (F:\Documents\uni\Git\Physik\Versuche\201\tabblei1.tex)
-(F:\Documents\uni\Git\Physik\Versuche\201\tabblei2.tex)
-(F:\Documents\uni\Git\Physik\Versuche\201\tabblei3.tex
+) (F:\Documents\uni\Git\Physik\Versuche\201\taba1.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [5]) (F:\Documents\uni\Git\Physik\Versuche\201\diskussion.tex
-(F:\Documents\uni\Git\Physik\Versuche\201\tabdiss2.tex [6])
-(F:\Documents\uni\Git\Physik\Versuche\201\tabdiss1.tex))
-(F:\Documents\uni\Git\Physik\Versuche\201\protokoll.bbl)
-<img011.jpg, id=185, 614.295pt x 845.3181pt>
+) (F:\Documents\uni\Git\Physik\Versuche\201\tablitdata.tex [3])
+(F:\Documents\uni\Git\Physik\Versuche\201\tabgraphit1.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (F:\Documents\uni\Git\Physik\Versuche\201\tabkupfer1.tex [4])
+(F:\Documents\uni\Git\Physik\Versuche\201\tabblei1.tex)
+(F:\Documents\uni\Git\Physik\Versuche\201\tabblei2.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (F:\Documents\uni\Git\Physik\Versuche\201\tabblei3.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [5]) (F:\Documents\uni\Git\Physik\Versuche\201\diskussion.tex [6]
+(F:\Documents\uni\Git\Physik\Versuche\201\tabdiss2.tex)
+(F:\Documents\uni\Git\Physik\Versuche\201\tabdiss1.tex)
+(F:\Documents\uni\Git\Physik\Versuche\201\tabdisslit.tex) [7])
+(F:\Documents\uni\Git\Physik\Versuche\201\protokoll.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+[]\T1/iwona/m/it/10.95 Versuch Nr.201 - Das Dulong-Petitsche Ge-setz\T1/iwona/m
+/n/10.95 .
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 15--17
+[]\T1/iwona/m/it/10.95 CODATA Va-lue: mo-lar gas con-stant\T1/iwona/m/n/10.95 .
+  http://physics.nist.gov/cgi-bin/cuu/Value?r
+ []
+
+) <img011.jpg, id=200, 614.295pt x 845.3181pt>
 File: img011.jpg Graphic file (type jpg)
  <use img011.jpg>
 Package pdftex.def Info: img011.jpg used on input line 81.
 (pdftex.def)             Requested size: 460.72011pt x 633.98703pt.
 
-<img012.jpg, id=186, 614.295pt x 845.3181pt>
+<img012.jpg, id=201, 614.295pt x 845.3181pt>
 File: img012.jpg Graphic file (type jpg)
  <use img012.jpg>
 Package pdftex.def Info: img012.jpg used on input line 82.
@@ -2534,31 +2555,31 @@ Overfull \hbox (42.46455pt too wide) in paragraph at lines 81--83
 [] 
  []
 
-[7]
+[8]
 Overfull \vbox (38.18677pt too high) has occurred while \output is active []
 
 
-[8 <F:/Documents/uni/Git/Physik/Versuche/201/img011.jpg>]
+[9 <F:/Documents/uni/Git/Physik/Versuche/201/img011.jpg>]
 Overfull \vbox (38.18677pt too high) has occurred while \output is active []
 
 
-[9 <F:/Documents/uni/Git/Physik/Versuche/201/img012.jpg>]
+[10 <F:/Documents/uni/Git/Physik/Versuche/201/img012.jpg>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
 
 (F:\Documents\uni\Git\Physik\Versuche\201\protokoll.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
 Package rerunfilecheck Info: File `protokoll.out' has not changed.
-(rerunfilecheck)             Checksum: A31793BB195596D5C752C54CA3AF5E60;1214.
+(rerunfilecheck)             Checksum: CD252FCA73C49530469FBD0CBB7F43D1;1198.
  ) 
 Here is how much of TeX's memory you used:
- 20299 strings out of 494045
- 395453 string characters out of 3149241
- 487534 words of memory out of 3000000
- 23192 multiletter control sequences out of 15000+200000
+ 20317 strings out of 494045
+ 395790 string characters out of 3149241
+ 488534 words of memory out of 3000000
+ 23202 multiletter control sequences out of 15000+200000
  43402 words of font info for 80 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 46i,12n,53p,294b,913s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,13n,53p,294b,913s stack positions out of 5000i,500n,10000p,200000b,50000s
 {H:/Progam Files/miktxport/fonts/enc/dvips/iwona/ec-iwona.enc} <H:\Progam Fil
 es\miktxport\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <H:\Progam Files\m
 iktxport\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1095.pk> <H:\Progam Files\miktx
@@ -2573,9 +2594,9 @@ miktxport/fonts/type1/public/amsfonts/cm/cmsy10.pfb><H:/Progam Files/miktxport/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><H:/Progam Files/miktxport/fonts/type1
 /nowacki/iwona/iwonab.pfb><H:/Progam Files/miktxport/fonts/type1/nowacki/iwona/
 iwonar.pfb><H:/Progam Files/miktxport/fonts/type1/nowacki/iwona/iwonari.pfb>
-Output written on protokoll.pdf (9 pages, 1945676 bytes).
+Output written on protokoll.pdf (10 pages, 1952536 bytes).
 PDF statistics:
- 391 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
+ 401 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

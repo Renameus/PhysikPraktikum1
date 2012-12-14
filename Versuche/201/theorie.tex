@@ -1,36 +1,44 @@
-\subsection{spezifische Wärmekapazität}
-Spezifische Wärmekapazitäten $C$ beschreiben das Vermögen eines Körpers bei einer Temperaturänderung
-Wärme zu speichern. Dabei wird unterteilt in $C_P$, spezifische Wärmekapazität bei konstantem Druck, und 
-$C_V$ spezifische Wärmekapazität bei konstantem Volumen. Das Dulong-Petitsche Gesetz \cite{anleitung} 
+\subsection{Wärmekapazität}
+Wärmekapazitäten $c$ beschreiben das Vermögen eines Körpers bei einer Temperaturänderung
+Wärme zu speichern. Dabei wird unterteilt in $C_P$, Wärmekapazität bei konstantem Druck, und 
+$C_V$, Wärmekapazität bei konstantem Volumen. Das Dulong-Petitsche Gesetz \cite{anleitung} 
 (Gl. \ref{eqdulpet}) beruht auf der klassischen Physik und beschreibt die Wärmekapazität auf 
-Basis der Schwingungen von Atomen mit beliebiger Energie.
+Basis der Schwingungen von Atomen mit beliebiger Energie. $R$ ist hier die allgemeine Gaskonstante.
 \begin{align}
 C_V&=3 R \label{eqdulpet}
 \end{align}
 Dieses Gesetz ist bei schwereren Atomen bei höherer Temperatur auch näherungsweise gültig, jedoch
 ist mit der Quantenmechanik bekannt, dass die Schwingungsenergie nur gequantelt auftritt, also 
 keine beliebigen Werte annehmen kann. Aufgrund dieser Beschaffenheit lässt sich schließen, dass
-die mittlere kinetische Energie eines Körpers immer kleiner ist als man nach Dulong-Petit folgern 
+die mittlere kinetische Energie eines Körpers immer kleiner ist, als man nach Dulong-Petit folgern 
 würde.\\
-\subsection{Das Mischungskaloriemeter}
-Die Funktionsweise des Mischungskaloriemeters beruht auf der Temperaturänderung eines mit Wasser 
-bekannter Masse und Temperatur gefüllten Dewar-Gefässes bei dem Hinzufügen der erhitzen Probe 
+\subsection{Das Mischungskalorimeter}
+Die Funktionsweise des Mischungskalorimeters beruht auf der Temperaturänderung eines mit Wasser 
+bekannter Masse und Temperatur gefüllten Dewar-Gefäßes bei dem Hinzufügen der erhitzen Probe 
 bekannter Masse und Temperatur bei gleichbleibendem Druck. Ist die Wärmekapazität $c_g m_g$ 
-(Gl. \ref{eqcgmg},\cite{anleitung} ) des Kaloriemeters bekannt, kann mit Gleichung  \ref{eqck} 
-die spezifische \cite{anleitung} Wärmekapazität $c_k$ der Probe berechnet werden. 
+(Gl. \ref{eqcgmg},\cite{anleitung} ) des Kalorimeters bekannt, kann mit Gleichung  (\ref{eqck}) \cite{anleitung}
+die Wärmekapazität $c_k$ der Probe berechnet werden. Dabei ist $C_w$ die Wärmekapazität von Wasser, 
+$m_x$ und $m_y$ sind die Wassermassen des Wassers mit den Temperaturen $T_x$ und $T_y$, welche zur 
+Bestimmmung von $c_gm_g$ die Mischtemperatur $T_m'$ ergeben, wenn die beiden Teile des Wasser im 
+Dewar-Gefäß vermischt sind. Ähnlich ist die Größe $T_m$ zu verstehen, welche die Mischtemperatur 
+der Massen $m_w$, der Wassermasse, und $m_k$, der Masse der erhitzen Probe, mit den Temperaturen $T_w$,
+ der Temperatur des Wassers, und $T_k$, der Temperatur der Probe, beschreibt.
 \begin{align}
 c_gm_g&=\frac{c_w m_y (T_y - T_m')-c_w m_x(T_y-T_m')}{T_m'-T_x} \label{eqcgmg} \\
 c_k&=\frac{(c_w m_w + c_g m_g)(T_m-T_w)}{m_k(T_k - T_m)} \label{eqck}
 \end{align}
 Das sich aus der bekannten molaren Masse der Probe ergebende $C_P$ lässt sich dann mit
-Gleichung  \ref{eqcvcp} \cite{anleitung}  in $C_V$ umrechnen.
+Gleichung  (\ref{eqcvcp}) \cite{anleitung}  in $C_V$ umrechnen. $\alpha$ ist der lineare 
+Ausdehnungskoeffizient der Probe, $\kappa$ das Kompressionsmodul der Probe, $V_0$ das Molvolumen
+der Probe und $T$ die zugehörige Temperatur.
 \begin{align}
 C_P-C_V&=9 \alpha^2 \kappa V_0 T \label{eqcvcp}
 \end{align}
 \subsection{Das Thermoelement}
 Das Thermoelement dient der Temperaturdifferenzmessung. Der bei Temperaturdifferenzen auftretende
 Elektronendrift beeinflusst das Kontaktpotential zwischen zwei verschiedenen Metallen, sodass sich 
-aus der auftretenden Spannung auf die Temperaturdifferenz schließen lässt \cite{anleitung}.
+aus der auftretenden Spannung zwischen zwei solcher Kontaktstellen auf die Temperaturdifferenz schließen lässt \cite{anleitung}.
 \begin{align}
-T&=25,157 U_{th} - 0,19 U_{th}^2 (U_{th} \text{in mV}) \label{eqt}
+T&=25,157\text{ }U_{th} - 0,19\text{ } U_{th}^2 \text{ }(U_{th} \text{ in mV}) \label{eqt}\\
+\text{Gültigkeitsbereich:  \quad} 0<T<100^\circ \text{ C}\nonumber
 \end{align}

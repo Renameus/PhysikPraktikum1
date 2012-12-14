@@ -1,11 +1,23 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[anl()]{anleitung}
+\bibitem[anl(http://129.217.224.2/HOMEPAGE/Anleitung\_AP.html (1. Dezember
+  2012))]{anleitung}
 \emph{Versuch Nr.201 - Das Dulong-Petitsche Gesetz}.
+\newblock http://129.217.224.2/HOMEPAGE/Anleitung\_AP.html (1. Dezember 2012).
+
+\bibitem[cod(http://physics.nist.gov/cgi-bin/cuu/Value?r
+  (14.12.2012))]{codatar}
+\emph{CODATA Value: molar gas constant}.
+\newblock http://physics.nist.gov/cgi-bin/cuu/Value?r (14.12.2012).
+
+\bibitem[Winter(2009)]{tafel}
+Dr.~Rolf Winter.
+\newblock \emph{Das große Tafelwerk}.
+\newblock Cornelsen, 2009.
 
 \end{thebibliography}
