@@ -25,7 +25,7 @@ I&\sim U^\alpha \\
 Aus der linearen Regression nach \cite{linreg} berechnet sich der gesuchte Exponent $\alpha$ beziehungsweise die Ausgleichskurve (Abb. \ref{picb1}).
 \begin{align}
 y&=a*x+b \\
-\Leftrightarrow ln(I)&=1,1808*ln(U)-5,3443 \\
+\Leftrightarrow ln(I)&=1,18\pm0.01*ln(U)-5,34\pm0,07 \\
 a&=\alpha=1,1808 \label{exalpha}\\
 \Delta a&=1,24\% \\
 b&=-5.3443 \\
@@ -36,7 +36,7 @@ b&=-5.3443 \\
 \FloatBarrier
 \subsection{Kathodentemperatur im Anlaufstromgebiet}
 Aus den aufgezeichneten Messwerten (vgl. Tab. \ref{tabc1}) lässt sich nach der Gleichung \ref{eqcureal}
-die angezeigte Spannung $U_{Heiz}$ nach $U_{Heiz,real}$ korrigieren. Daraus lässt sich dann mit 
+die angezeigte Spannung $U_{gegen}$ nach $U_{gegen,real}$ korrigieren. Daraus lässt sich dann mit 
 Gleichung \ref{eqtemp} T berechnen (Tab. \ref{tabc1}). Die genutzen Apparaturkonstanten waren dabei:
 \begin{align}
 \begin{split}
@@ -48,16 +48,21 @@ N_{WL}&=0,95W .
 Eine lineare Ausgleichsrechnung \cite{linreg} ergibt folgende Werte.
 \begin{align}
 y&=a*x+b\\
-T&=107,43 \frac{1}{\text{V}}*U_{Heiz,real}+1643,81\text{K}\\
-a&=107,43 \frac{1}{\text{V}}\\
-\Delta a&=0,7\%\\
-b&=1643,81\text{K}\\
-\Delta b&=0,2\%
+\Rightarrow ln(I)&=a*U+b\\
+% T&=107,43 \frac{1}{\text{V}}*U_{Heiz,real}+1643,81\text{K}\\
+ln(I)&=-4,85*U_{gegen,real}-15,29\\
+% a&=107,43 \frac{1}{\text{V}}\\
+a&=-4,85\pm0,07\\
+% \Delta a&=0,7\%\\
+% b&=1643,81\text{K}\\
+b&=-15,29\pm0,04\\
+% \Delta b&=0,2\%
 \end{align}
 Die Werte sind in Abbildung \ref{picc1} veranschaulicht.
 \begin{align}
-U_a'&=U_a+R*I_a\\
-\Rightarrow U_{Heiz,real}&=U_{Heiz}-(U_{gegen}+R*I_S) \label{eqcureal}\\
+U_{gegen,real}&=U_{gegen}+I_a*R \label{eqcureal}\\
+% U_a'&=U_a+R*I_a\\
+% \Rightarrow U_{Heiz,real}&=U_{Heiz}-(U_{gegen}+R*I_a) \label{eqcureal}\\
 mit: R&=1M\Omega
 \end{align}
 
