@@ -1,2 +1,44 @@
-%
-%
+%picfdrei,picfrecht,picfsage,picfsr,picfsd,picfss,picfar,picfad,picfas
+%tabfsr,tabfsd,tabfss,tabfar,tabfad,tabfas
+%subsec:rechnen
+\subsection{Berechnung der Fourier-Koeffizienten} \label{subsec:rechnen}
+\input{picfrecht} \input{picfdrei} \input{picfsage}
+Die Koeffizienten der einzelnen periodischen Funktionen berechnen sich nach den 
+Gleichungen (\ref{eqfoua}) und (\ref{eqfoub}). Dabei wurde die Rechteckfunktion 
+$f_R$, Abbildung (\ref{picfrecht}), als ungerade Funktion gewählt, für alle $i$ ist $a_i=0$.
+Die Dreieckfunktion $f_D$, Abbildung (\ref{picfdrei}), und die Sägezahnfunktion $f_S$,
+Abbildung (\ref{picfsage}), sind als gerade Funktionen definiert worden, für alle $i$ gilt
+also  $b_i=0$.
+\begin{align}
+\text{Es gilt für die Funktionen der Definitionsbereich }&\pi \ge x > -\pi \text{ mit einer periodischen} \nonumber \\
+\text{Fortsetzung von }T=2\pi \text{ .}\nonumber \\
+f_R(x)&=\frac{\left| x \right|}{x}\\
+f_D(x)&=\left| x \right| - \frac{\pi}{2}\\
+f_S(x)&=\begin{cases}
+  x + 2 \pi,  & -\pi \le x < 0\\
+  x, & 0 \le x < \pi
+\end{cases}\\
+\text{Es ergeben sich die folgenden Fourierkoeffizienten }&\text{mit $N=1,2, \ldots$.} \nonumber \\
+f_R: a_0&=0,\text{ }a_n=0, \\
+b_n&=\begin{cases}
+	\frac{4}{n\pi}, & n \text{ ungerade}\\
+	0, & n \text{ gerade}
+\end{cases}\\
+f_D: a_0&=0, \text{ }b_n=0,\\
+a_n&=\begin{cases}
+	-\frac{4}{n^2\pi}, & n \text{ ungerade}\\
+	0, & n \text{ gerade}
+\end{cases}\\
+f_S: a_0&=\pi, \text{ }a_n=0, \text{ }b_n=-\frac{2}{n}
+\end{align}
+\subsection{Fourier-Synthese}
+\input{tabfsr} \input{tabfsd} \input{tabfss} \input{picfsr} \input{picfsd} \input{picfss}
+Aus den Koeffizientengleichungen aus \ref{subsec:rechnen} ergeben sich die einzustellenden Amplituden
+des Oberwellengenerators (Tab. \ref{tabfsr} - \ref{tabfss}). Nach der Aufsummierung der Oberwellen
+ergeben sich die Graphen \ref{picfsr} bis \ref{picfss} auf dem Oszilloskop.
+\FloatBarrier
+\subsection{Fourier-Analyse}
+\input{tabfar} \input{tabfad} \input{tabfas} \input{picfar} \input{picfad} \input{picfas}
+Die abgelesenen Amplituden in den Tabellen \ref{tabfar} bis \ref{tabfas} ergeben sich aus den Graphen
+\ref{picfar} bis \ref{picfas} des Oszilloskops. Die Theoriewerte ergeben sich dabei aus der Normierung
+des ersten Messwertes und der darauf aufbauenden Berechnung gemäß Gleichungen (\ref{eqfoua}) und (\ref{eqfoub}). 
